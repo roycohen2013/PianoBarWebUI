@@ -1,0 +1,83 @@
+body {
+	font: 16px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+
+#stationList {
+	height: 500px;
+	width: 325px;
+	overflow: auto;
+	overflow-x: hidden;	
+	
+	padding-top: 10px;
+	background-color: #f1f4f4;
+	
+	
+	border-radius: 5px;
+	
+	/*-moz-box-shadow:    3px 3px 5px 6px #78d5c4;
+	 -webkit-box-shadow: 3px 3px 5px 6px #78d5c4;
+	 box-shadow:         3px 3px 5px 6px #78d5c4;*/
+	 float: left;
+	 margin-right: 10px;
+}
+
+
+.station {
+	width: 395px;	
+	height: 25px;
+	padding: 2px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding: auto;
+	overflow-y: hidden;	
+	border-radius: 5px;
+}
+
+/*.station div {
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+
+.station:nth-child(even)  {
+	background-color: #d0ebe6;
+	
+}
+
+
+.station:hover {
+	background-color: #78d5c4;
+	font-weight: bold;
+}
+
+
+#controlPanel{
+	width: 340px;
+	height: 100px;
+	float: left;
+	
+}
+
+
+.pnlButton{
+	width: 108px;
+	
+	float: left;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #f1f4f4;
+	margin: 2px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.pnlButton:hover{
+	background-color: #d0ebe6;
+	font-weight: bold;
+}
+
+
+#wrapper{
+	width: 690px;
+}

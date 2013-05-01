@@ -1,0 +1,16 @@
+
+If OSX
+
+	Install Homebrew
+	
+		http://mxcl.github.com/homebrew/
+	
+		using: ruby <(curl -fsSk https://raw.github.com/mxcl/homebrew/go)			// Terminal command
+		
+	
+	
+	Install PianoBar
+	
+		http://6xq.net/projects/pianobar/
+		
+		using: $ sudo brew install pianobar					// Terminal command

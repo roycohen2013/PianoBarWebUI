@@ -1,0 +1,76 @@
+
+If OSX
+
+	Install Homebrew
+	
+		http://mxcl.github.com/homebrew/
+	
+		using: ruby <(curl -fsSk https://raw.github.com/mxcl/homebrew/go)			// Terminal command
+		
+	
+	
+	Install PianoBar
+	
+		http://6xq.net/projects/pianobar/
+		
+		using: $ sudo brew install pianobar					// Terminal command
+		
+		
+		
+		
+	
+If Linux
+
+
+	Install PianoBar
+	
+		http://6xq.net/projects/pianobar/					//main pianobar page
+		http://www.foscode.com/install-pianobar-ubuntu/		install instructions
+		
+		
+		
+		1. Install all dependencies:
+		
+			sudo apt-get install git-core
+			sudo apt-get install libao-dev
+			sudo apt-get install libmad0-dev
+			sudo apt-get install libfaac-dev
+			sudo apt-get install libfaad-dev
+			sudo apt-get install libgnutls-dev
+		
+		
+		2. Download the latest copy from the git repository:
+		
+
+			git clone git://github.com/PromyLOPh/pianobar.git
+		
+		3. Go into the newly created folder (git automatically creates the folder calder pianobar) and install it.
+		
+
+			make clean
+			make
+			sudo make install
+			
+		4. After you have installed pianobar, you can create a config file where you’d have your username and password. (Beats having to type those everytime you start the app).
+		
+		
+			cd ~
+			mkdir .config/pianobar
+			vim .config/pianobar/config
+		
+		5. add the following 2 lines and save the file
+		
+		user = pandoraUserName
+		password = pandoraPassword
+		
+		6. That’s it, just run pianobar from the command line and enjoy.
+		
+		
+		
+		
+		REMOTE CONTROL
+		
+			http://manpages.ubuntu.com/manpages/maverick/man1/pianobar.1.html
+		
+		
+		
